@@ -1,0 +1,13 @@
+# Add your photos here
+
+Drop birthday photos in this folder, then reference them in `lib/config/birthday.ts`.
+
+Example filename: `photo-1.jpg`
+
+Example config:
+
+```ts
+gallery: [
+  { id: "1", caption: "Our favorite moment", src: "/photos/photo-1.jpg" },
+]
+```

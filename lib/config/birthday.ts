@@ -77,31 +77,37 @@ export const birthdayConfig = {
     {
       id: "1",
       caption: "That smile I fell for",
+      src: "/photos/couple-together-1.jpg",
       gradient: "from-rose-300 via-pink-200 to-orange-100",
     },
     {
       id: "2",
       caption: "Our favorite spot",
+      src: "/photos/couple-together-2.jpg",
       gradient: "from-violet-300 via-purple-200 to-pink-100",
     },
     {
       id: "3",
       caption: "Adventure mode: ON",
+      src: "/photos/couple-together-3.jpg",
       gradient: "from-amber-200 via-orange-200 to-rose-200",
     },
     {
       id: "4",
       caption: "Late night talks",
+      src: "/photos/couple-together-4.jpg",
       gradient: "from-sky-200 via-indigo-200 to-violet-200",
     },
     {
       id: "5",
       caption: "Us being us",
+      src: "/photos/couple-together-5.jpg",
       gradient: "from-emerald-200 via-teal-200 to-cyan-200",
     },
     {
       id: "6",
       caption: "My favorite memory",
+      src: "/photos/couple-together-6.jpg",
       gradient: "from-fuchsia-200 via-pink-200 to-rose-200",
     },
   ],
