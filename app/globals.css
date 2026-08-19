@@ -43,7 +43,13 @@
 }
 
 html {
-  scroll-behavior: smooth;
+  scroll-behavior: auto;
+}
+
+html.journey-active,
+html.journey-active body {
+  overflow: hidden;
+  height: 100%;
 }
 
 body {
@@ -81,7 +87,21 @@ body {
 }
 
 .section-padding {
-  @apply px-5 py-20 md:px-10 md:py-28 lg:px-16;
+  @apply px-5 py-12 md:px-10 md:py-16 lg:px-16;
+}
+
+.journey-slide {
+  scroll-behavior: smooth;
+}
+
+.journey-section {
+  min-height: min(100%, 100dvh);
+}
+
+.journey-section-center {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 .reveal {

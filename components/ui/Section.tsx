@@ -11,7 +11,7 @@ interface SectionProps {
 
 export function Section({ id, children, className, title, subtitle, badge }: SectionProps) {
   return (
-    <section id={id} className={cn("section-padding relative", className)}>
+    <section id={id} className={cn("section-padding journey-section relative", className)}>
       <div className="mx-auto max-w-6xl">
         {(badge || title || subtitle) && (
           <header className="mb-12 text-center md:mb-16">

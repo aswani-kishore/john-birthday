@@ -1,6 +1,6 @@
 "use client";
 
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import { AppProvider, useApp } from "@/context/AppContext";
 import { PageLoader } from "@/components/layout/PageLoader";
 import { WelcomeScreen } from "@/components/sections/WelcomeScreen";
@@ -9,23 +9,9 @@ import { FloatingControls } from "@/components/layout/FloatingControls";
 import { ComplimentToast } from "@/components/layout/ComplimentToast";
 import { MusicPlayer } from "@/components/layout/MusicPlayer";
 import { ProgressNav } from "@/components/layout/ProgressNav";
-import { CountdownSection } from "@/components/sections/CountdownSection";
-import { HeroSection } from "@/components/sections/HeroSection";
-import { WelcomeMessageSection } from "@/components/sections/WelcomeMessageSection";
-import { ReasonsSection } from "@/components/sections/ReasonsSection";
-import { TimelineSection } from "@/components/sections/TimelineSection";
-import { GallerySection } from "@/components/sections/GallerySection";
-import { InsideJokesSection } from "@/components/sections/InsideJokesSection";
-import { HiddenMessagesSection } from "@/components/sections/HiddenMessagesSection";
-import { LoveLettersSection } from "@/components/sections/LoveLettersSection";
-import { GiftBoxesSection } from "@/components/sections/GiftBoxesSection";
-import { QuizSection } from "@/components/sections/QuizSection";
-import { SpinWheelSection } from "@/components/sections/SpinWheelSection";
-import { ScratchCardsSection } from "@/components/sections/ScratchCardsSection";
-import { FlipCardsSection } from "@/components/sections/FlipCardsSection";
-import { PuzzleSection } from "@/components/sections/PuzzleSection";
-import { WishesSection } from "@/components/sections/WishesSection";
-import { FinalLetterSection } from "@/components/sections/FinalLetterSection";
+import { SlideDeck } from "@/components/layout/SlideDeck";
+import { SlideControls } from "@/components/layout/SlideControls";
+
 function ProgressBar() {
   const { progress } = useApp();
   return (
@@ -43,39 +29,27 @@ function ProgressBar() {
 }
 
 function BirthdayExperience() {
-  const { hasEntered } = useApp();
+  const { hasEntered, startMusic } = useApp();
   const [loaded, setLoaded] = useState(false);
+
+  useEffect(() => {
+    if (loaded) startMusic();
+  }, [loaded, startMusic]);
 
   return (
     <>
       {!loaded && <PageLoader onComplete={() => setLoaded(true)} />}
+      {loaded && <MusicPlayer active={loaded} />}
       {loaded && !hasEntered && <WelcomeScreen />}
       {loaded && hasEntered && (
-        <main className="relative cursor-heart">
+        <main className="relative cursor-heart h-dvh overflow-hidden">
           <ProgressBar />
           <FloatingHearts />
           <ProgressNav />
           <FloatingControls />
           <ComplimentToast />
-          <MusicPlayer />
-
-          <CountdownSection />
-          <HeroSection />
-          <WelcomeMessageSection />
-          <ReasonsSection />
-          <TimelineSection />
-          <GallerySection />
-          <InsideJokesSection />
-          <HiddenMessagesSection />
-          <LoveLettersSection />
-          <GiftBoxesSection />
-          <QuizSection />
-          <SpinWheelSection />
-          <ScratchCardsSection />
-          <FlipCardsSection />
-          <PuzzleSection />
-          <WishesSection />
-          <FinalLetterSection />
+          <SlideDeck />
+          <SlideControls />
         </main>
       )}
     </>

@@ -10,7 +10,7 @@ export function HeroSection() {
   const { tagline, subtitle } = birthdayConfig.hero;
 
   return (
-    <Section id="hero" className="gradient-hero min-h-[85vh] flex items-center">
+    <Section id="hero" className="gradient-hero journey-section-center flex min-h-0 flex-1 items-center">
       <div className="mx-auto max-w-4xl text-center">
         <Reveal>
           <p className="mb-4 text-sm font-semibold uppercase tracking-[0.3em] text-rose">
