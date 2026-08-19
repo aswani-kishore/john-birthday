@@ -1,6 +1,6 @@
 export const birthdayConfig = {
   recipient: {
-    name: "John",
+    name: "Icha",
     nickname: "My Love",
   },
   sender: {
@@ -17,23 +17,23 @@ export const birthdayConfig = {
   reasons: [
     {
       title: "Your laugh",
-      text: "It's contagious — even on my worst days, one giggle from you resets everything.",
+      text: "it's contagious...",
       emoji: "😄",
     },
     {
       title: "Your patience",
-      text: "You listen when I'm rambling at 2 AM and still say 'tell me more.'",
+      text: "🤍 Your Patience change the content to this one Thank you for being patient with me, especially when I overthink, get emotional, or become difficult. You still choose to understand me.",
       emoji: "💫",
     },
     {
       title: "Your hugs",
-      text: "Five seconds in and the whole world feels softer.",
+      text: "Your hugs feel like home. Sometimes I don't need words—I just need to be in your arms....",
       emoji: "🤗",
     },
     {
       title: "Your weirdness",
-      text: "Only you would debate pizza toppings like it's a TED talk — and I love it.",
-      emoji: "🍕",
+      text: "Because honestly… who else would tolerate your weirdness and love it at the same time? 😂❤️",
+      emoji: "🤪",
     },
     {
       title: "Your kindness",
@@ -41,9 +41,9 @@ export const birthdayConfig = {
       emoji: "💝",
     },
     {
-      title: "Your ambition",
-      text: "Watching you chase dreams makes me want to be better every day.",
-      emoji: "🚀",
+      title: "Your Understanding",
+      text: "You somehow understand the things I don't say out loud. That's something I treasure about you.",
+      emoji: "🥹",
     },
   ],
   timeline: [
@@ -175,23 +175,23 @@ export const birthdayConfig = {
   quiz: [
     {
       question: "Where did we have our first date?",
-      options: ["Coffee shop", "Movie theater", "Park", "Restaurant"],
-      correct: 0,
-    },
-    {
-      question: "What's our unofficial couple song?",
-      options: ["Something upbeat", "A random meme song", "That one slow song", "All of the above"],
-      correct: 3,
-    },
-    {
-      question: "Who always says 'five more minutes'?",
-      options: ["You", "Me", "Both of us", "Neither — we're punctual 😅"],
+      options: ["Coffee shop", "Movie theatre", "Garden", "Restaurant"],
       correct: 2,
     },
     {
-      question: "Best late-night snack?",
-      options: ["Ice cream", "Chips", "Leftover pizza", "Whatever's in the fridge"],
+      question: "Which is the official fav song that I had sang for you?",
+      options: ["Poove sempoove", "Kaarmukilil pidanjunarum", "Etho mazhayil", "Lailakame"],
       correct: 3,
+    },
+    {
+      question: "Who always says 'kurach neram koode'?",
+      options: ["You", "Me", "Both of us", "Neither of us"],
+      correct: 2,
+    },
+    {
+      question: "My fav food?",
+      options: ["Burger", "Chicken biriyani", "Loaded fries", "Mandhi"],
+      correct: 1,
     },
   ],
   wheelPrizes: [
@@ -223,21 +223,26 @@ export const birthdayConfig = {
     "You're doing amazing, sweetie.",
   ],
   finalLetter: {
-    greeting: "My Dearest John,",
+    greeting: "Happy Birthday, my love ❤️,",
     paragraphs: [
-      "On your birthday, I want you to know how deeply loved you are — not just today, but every ordinary Tuesday, every sleepy morning, every chaotic adventure we stumble into together.",
-      "You make me laugh until my cheeks hurt, hold me when the world feels heavy, and remind me that the best things in life aren't things at all — they're moments shared with someone who feels like home.",
-      "Thank you for being you: kind, funny, stubborn in the cutest way, and impossibly good at making me feel like the luckiest person alive.",
-      "Here's to you — to your dreams, your joy, and every beautiful year ahead. I love you more than words on a screen could ever capture.",
+      "Today is your special day, but somehow I feel like I’m the lucky one for having you in my life.",
+      "I don’t know if I always find the right words to tell you how much you mean to me, but I want you to know that my love for you is much bigger than anything I could ever put into words. You have become such an important part of my life, my happiness, my thoughts, and even my little everyday moments.",
+      "Thank you for being there for me, for understanding me, for making me smile, and for loving me even on the days when I’m not at my best. Thank you for accepting me as I am, with all my imperfections, moods, overthinking, and everything that comes with me. ❤️",
+      "There are so many moments with you that I keep close to my heart. The laughter, the silly conversations, the little fights, the missing each other, the waiting, and all those moments when just talking to you makes my day better. Even when we are far from each other, you still manage to make me feel loved and close to you.",
+      "I may not say it every day, but I am genuinely proud of you and so grateful that I get to love you. I wish I could be beside you today, hold you close, look into your eyes, and tell you all of this instead of writing it here.",
+      "On your birthday, I just want to wish you happiness, success, peace, and everything your heart wishes for. And selfishly, I wish that I get to be beside you through all of it celebrating your achievements, supporting you through difficult days, laughing with you, growing with you, and making beautiful memories together.",
+      "No matter how much time passes, I hope we never lose the little things that make us us.",
+      "Happy Birthday to the man who has a very special place in my heart. ❤️",
+      "I love you more than I can explain, and I hope you always remember that.",
+      "Happy Birthday, my love. ❤️"
     ],
-    closing: "Forever yours,",
+    closing: "Here’s to you, to us, and to all the beautiful days waiting for us. 🫂❤️,",
     signature: "Aswani 💕",
   },
   music: {
-    title: "Our Song (Placeholder)",
-    artist: "Add your song here",
-    /** Replace with your own audio file in /public/music/ */
-    src: "",
+    title: "Birthday Song",
+    artist: "For Icha",
+    src: "/music/bday_audio.mpeg",
   },
   wishes: [
     { from: "Mom", message: "Happy Birthday! So proud of the man you've become." },
