@@ -4,25 +4,33 @@ import { useEffect, useRef } from "react";
 import { useApp } from "@/context/AppContext";
 import { birthdayConfig } from "@/lib/config/birthday";
 
-export function MusicPlayer() {
+export function MusicPlayer({ active }: { active: boolean }) {
   const { musicPlaying } = useApp();
   const audioRef = useRef<HTMLAudioElement>(null);
 
   useEffect(() => {
     const audio = audioRef.current;
-    if (!audio || !birthdayConfig.music.src) return;
+    if (!audio || !birthdayConfig.music.src || !active) return;
+
+    const tryPlay = () => {
+      if (musicPlaying) {
+        audio.play().catch(() => {});
+      }
+    };
 
     if (musicPlaying) {
-      audio.play().catch(() => {});
-    } else {
-      audio.pause();
+      tryPlay();
+      window.addEventListener("pointerdown", tryPlay, { once: true });
+      return () => window.removeEventListener("pointerdown", tryPlay);
     }
-  }, [musicPlaying]);
+
+    audio.pause();
+  }, [musicPlaying, active]);
 
   if (!birthdayConfig.music.src) return null;
 
   return (
-    <audio ref={audioRef} src={birthdayConfig.music.src} loop preload="none">
+    <audio ref={audioRef} src={birthdayConfig.music.src} loop preload="auto">
       <track kind="captions" />
     </audio>
   );

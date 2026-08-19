@@ -7,10 +7,11 @@ import { useApp } from "@/context/AppContext";
 import { burstConfetti } from "@/components/effects/Confetti";
 
 export function WelcomeScreen() {
-  const { setHasEntered } = useApp();
+  const { setHasEntered, startMusic } = useApp();
   const [opening, setOpening] = useState(false);
 
   const handleEnter = () => {
+    startMusic();
     setOpening(true);
     burstConfetti({ particleCount: 60, spread: 80 });
     setTimeout(() => setHasEntered(true), 800);
@@ -33,8 +34,7 @@ export function WelcomeScreen() {
           <span className="text-foreground">{birthdayConfig.recipient.name}</span>
         </h1>
         <p className="mx-auto mt-6 max-w-md text-base text-foreground/70 md:text-lg">
-          {birthdayConfig.sender.name} made you something special. Ready for a journey through
-          love, laughter, and a few surprises?
+          Are you ready for a journey through love, laughter, and a few surprises?
         </p>
         <Button
           size="lg"
@@ -43,9 +43,6 @@ export function WelcomeScreen() {
         >
           Open Your Surprise ✨
         </Button>
-        <p className="mt-6 text-xs text-foreground/40">
-          Turn on sound for extra magic (optional)
-        </p>
       </div>
 
       <div className="pointer-events-none absolute inset-0 overflow-hidden" aria-hidden>
