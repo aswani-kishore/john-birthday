@@ -6,7 +6,6 @@ import { WelcomeMessageSection } from "@/components/sections/WelcomeMessageSecti
 import { ReasonsSection } from "@/components/sections/ReasonsSection";
 import { TimelineSection } from "@/components/sections/TimelineSection";
 import { GallerySection } from "@/components/sections/GallerySection";
-import { InsideJokesSection } from "@/components/sections/InsideJokesSection";
 import { HiddenMessagesSection } from "@/components/sections/HiddenMessagesSection";
 import { LoveLettersSection } from "@/components/sections/LoveLettersSection";
 import { GiftBoxesSection } from "@/components/sections/GiftBoxesSection";
@@ -15,7 +14,6 @@ import { SpinWheelSection } from "@/components/sections/SpinWheelSection";
 import { ScratchCardsSection } from "@/components/sections/ScratchCardsSection";
 import { FlipCardsSection } from "@/components/sections/FlipCardsSection";
 import { PuzzleSection } from "@/components/sections/PuzzleSection";
-import { WishesSection } from "@/components/sections/WishesSection";
 import { FinalLetterSection } from "@/components/sections/FinalLetterSection";
 
 export interface JourneySlide {
@@ -31,7 +29,6 @@ const ALL_SLIDES: JourneySlide[] = [
   { id: "reasons", label: "Love", component: ReasonsSection },
   { id: "timeline", label: "Story", component: TimelineSection },
   { id: "gallery", label: "Photos", component: GallerySection },
-  { id: "jokes", label: "Jokes", component: InsideJokesSection },
   { id: "hidden", label: "Secrets", component: HiddenMessagesSection },
   { id: "letters", label: "Letters", component: LoveLettersSection },
   { id: "gifts", label: "Gifts", component: GiftBoxesSection },
@@ -40,7 +37,6 @@ const ALL_SLIDES: JourneySlide[] = [
   { id: "scratch", label: "Scratch", component: ScratchCardsSection },
   { id: "flip-cards", label: "Cards", component: FlipCardsSection },
   { id: "puzzle", label: "Game", component: PuzzleSection },
-  { id: "wishes", label: "Wishes", component: WishesSection },
   { id: "finale", label: "Finale", component: FinalLetterSection },
 ];
 

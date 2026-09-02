@@ -10,7 +10,7 @@ export const birthdayConfig = {
   birthdayDate: "2026-07-25T00:00:00",
   hero: {
     tagline: "Today the universe got a little brighter.",
-    subtitle: "Someone very special was born — and my world changed forever.",
+    subtitle: "Someone very special was born today — and my world changed forever.",
   },
   welcomeMessage:
     "Happy Birthday to the man who makes ordinary days feel like adventures. You are my favorite person, my calm in chaos, and the reason I believe in magic.",
@@ -49,28 +49,33 @@ export const birthdayConfig = {
   timeline: [
     {
       date: "First Hello",
-      title: "The day we met",
-      description: "You said hi like we'd known each other forever. I knew something special was starting.",
+      title: "The Day We First Met",
+      description:
+        "It's funny how life works sometimes. We walked into the same classroom, sat among the same people, and became a small part of each other's world… without having the slightest idea that one day, you would become such a big part of my life. ❤️",
     },
     {
-      date: "First Date",
-      title: "Coffee & butterflies",
-      description: "Three hours felt like three minutes. You ordered dessert and shared it anyway.",
+      date: "McDonald's Date",
+      title: "Coffee, a burger & a hug",
+      description:
+        "You surprised me one day by visiting me at work, and we ended up at McDonald's with coffee, a burger, and lots of little smiles. Then came the hug—and I still remember how surprised you were! We enjoyed some music, laughed, talked, and you dropped me home. Such a simple day, but somehow it became one of my sweetest memories with you. ❤️",
     },
     {
-      date: "Inside Joke #1",
-      title: "The great umbrella incident",
-      description: "We got caught in rain without an umbrella and laughed until we couldn't breathe.",
+      date: "Marine Drive",
+      title: "Under the Johns umbrella",
+      description:
+        "That sunny day at Marine Drive when we escaped the hot sun and found our little shelter under the Johns umbrella. 😂❤️ We sat there talking about everything and nothing, with a lot of laughter and butterflies. 🫣",
     },
     {
-      date: "Road Trip",
-      title: "Windows down, music up",
-      description: "Wrong turns, right company. Best day ever — even when we ran out of snacks.",
+      date: "Bike Ride",
+      title: "Basario's sister's wedding",
+      description:
+        "Our little bike ride to Basario's sister's wedding—you driving, me sitting behind you, and somehow we ended up recording your crazy dance steps while riding! 😂 A little madness, a lot of laughter, and the two of us being our silly selves. 🫶",
     },
     {
       date: "Today",
-      title: "Your birthday",
-      description: "Another year of you — and I'm still falling for you, every single day.",
+      title: "And Then Came Today…",
+      description:
+        "Another year of you. I feel like I'm the lucky one, because I get to have you in my life. ❤️ I may not always find the perfect words, but I hope you always feel it in the way I love you. You've slowly become a beautiful part of everything—my happiness, my thoughts, my little everyday moments, and my heart. 🫂❤️",
     },
   ],
   gallery: [
@@ -111,24 +116,6 @@ export const birthdayConfig = {
       gradient: "from-fuchsia-200 via-pink-200 to-rose-200",
     },
   ],
-  insideJokes: [
-    {
-      setup: "Why did we buy 47 snacks on a Tuesday?",
-      punchline: "Because 'just one more' is our love language.",
-    },
-    {
-      setup: "What's our couple superpower?",
-      punchline: "Finishing each other's sentences… and each other's fries.",
-    },
-    {
-      setup: "What do we call our GPS?",
-      punchline: "Suggestion Box — because we never follow it.",
-    },
-    {
-      setup: "Official couple motto?",
-      punchline: "'We'll figure it out' — and somehow, we always do.",
-    },
-  ],
   hiddenMessages: [
     "Psst… you're the best thing that ever happened to me.",
     "I still get butterflies when your name pops up on my phone.",
@@ -164,7 +151,7 @@ export const birthdayConfig = {
     {
       id: "gift-2",
       label: "Gift #2",
-      surprise: "A date night of your choice — I handle everything.",
+      surprise: "I handle everything.",
     },
     {
       id: "gift-3",
@@ -211,8 +198,8 @@ export const birthdayConfig = {
   ],
   flipCards: [
     { front: "First 'I love you'", back: "My heart did a full gymnastics routine." },
-    { front: "Our silliest moment", back: "Dancing in the kitchen like nobody was watching." },
-    { front: "Best compliment ever", back: "You said I make you feel at home." },
+    { front: "Our silliest moment", back: "long distance dance when nobody is around." },
+    { front: "Best compliment ever", back: "-you said I am the best." },
     { front: "Future us", back: "More laughs, more trips, more us." },
   ],
   randomCompliments: [
@@ -244,11 +231,6 @@ export const birthdayConfig = {
     artist: "For Icha",
     src: "/music/bday_audio.mpeg",
   },
-  wishes: [
-    { from: "Mom", message: "Happy Birthday! So proud of the man you've become." },
-    { from: "Best Friend", message: "Bro, another year of being awesome. Party time!" },
-    { from: "Sister", message: "Don't grow up too fast — we need more cake fights." },
-  ],
 } as const;
 
 export type BirthdayConfig = typeof birthdayConfig;
