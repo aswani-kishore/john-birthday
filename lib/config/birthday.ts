@@ -117,10 +117,10 @@ export const birthdayConfig = {
     },
   ],
   hiddenMessages: [
-    "Psst… you're the best thing that ever happened to me.",
-    "I still get butterflies when your name pops up on my phone.",
-    "Forever isn't long enough with you.",
-    "You + Me + Pizza = Perfect equation.",
+    "Our story started without feelings… and somehow became the story closest to my heart. ❤️",
+    "Secretly wishing I could hug you right now. 🫂",
+    "You're stuck with me now. No refunds. 😂❤️",
+    "If you ever forget how much I love you, come back and read this: You are loved. You are missed. You are wanted. You are appreciated. And you are, without a doubt, one of the best things that ever happened to me. ❤️",
   ],
   loveLetters: [
     {
@@ -182,14 +182,38 @@ export const birthdayConfig = {
     },
   ],
   wheelPrizes: [
-    "One forehead kiss 💋",
-    "Movie night — you pick!",
-    "A love note delivered daily for a week",
-    "Massage duty — 20 minutes",
-    "Your favorite dessert, on me",
-    "A surprise adventure date",
-    "Bragging rights: Best Boyfriend Ever",
-    "Free pass — one chore skipped",
+    {
+      short: "Hug coupon",
+      full: "Unlimited hug coupon — redeem anytime, especially when we're missing each other. 🫂",
+    },
+    {
+      short: "McD date",
+      full: "A McDonald's date: coffee, a burger, and lots of little smiles — just like our sweet memory. ❤️",
+    },
+    {
+      short: "Lailakame",
+      full: "A private Lailakame moment — I'll sing it for you again, just like your favorite. 🎤❤️",
+    },
+    {
+      short: "Marine Drive",
+      full: "A Marine Drive hang under our little umbrella shelter — talking about everything and nothing. 😂❤️",
+    },
+    {
+      short: "Biryani",
+      full: "Chicken biryani treat on me — your favorite food, my favorite way to spoil you. 🍛",
+    },
+    {
+      short: "Late call",
+      full: "One long 'kurach neram koode' call — no rush, just us talking forever. 📞",
+    },
+    {
+      short: "Bike ride",
+      full: "A silly bike-ride adventure with you driving and me laughing behind you. 🏍️🫶",
+    },
+    {
+      short: "Love note",
+      full: "A handwritten love note reminding you: you are loved, missed, wanted, and appreciated. 💌",
+    },
   ],
   scratchCards: [
     { message: "You're my favorite notification." },
