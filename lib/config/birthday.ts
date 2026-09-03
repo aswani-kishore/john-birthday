@@ -223,7 +223,7 @@ export const birthdayConfig = {
   flipCards: [
     { front: "First 'I love you'", back: "My heart did a full gymnastics routine." },
     { front: "Our silliest moment", back: "long distance dance when nobody is around." },
-    { front: "Best compliment ever", back: "When you said "I am the best"." },
+    { front: "Best compliment ever", back: 'When you said "I am the best".' },
     { front: "Future us", back: "More laughs, more trips, more us." },
   ],
   randomCompliments: [
