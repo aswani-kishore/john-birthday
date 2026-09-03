@@ -22,7 +22,7 @@ export const birthdayConfig = {
     },
     {
       title: "Your patience",
-      text: "🤍 Your Patience change the content to this one Thank you for being patient with me, especially when I overthink, get emotional, or become difficult. You still choose to understand me.",
+      text: "Thank you for being patient with me, especially when I overthink, get emotional, or become difficult. You still choose to understand me.",
       emoji: "💫",
     },
     {
@@ -36,8 +36,8 @@ export const birthdayConfig = {
       emoji: "🤪",
     },
     {
-      title: "Your kindness",
-      text: "You remember the small things nobody else notices.",
+      title: "Your Love",
+      text: "You make me feel loved in ways I sometimes don’t even know how to explain. With you, my heart feels safe.",
       emoji: "💝",
     },
     {
@@ -57,7 +57,7 @@ export const birthdayConfig = {
       date: "McDonald's Date",
       title: "Coffee, a burger & a hug",
       description:
-        "You surprised me one day by visiting me at work, and we ended up at McDonald's with coffee, a burger, and lots of little smiles. Then came the hug—and I still remember how surprised you were! We enjoyed some music, laughed, talked, and you dropped me home. Such a simple day, but somehow it became one of my sweetest memories with you. ❤️",
+        "You surprised me one day by visiting me at work, and we ended up at McDonald's with coffee, a burger, and lots of little smiles❤️. Then came the hug and I still remember how surprised you were🫂🦋. We enjoyed some music, laughed, talked, and you dropped me home. Such a simple day, but somehow it became one of my sweetest memories with you ❤️",
     },
     {
       date: "Marine Drive",
@@ -69,13 +69,13 @@ export const birthdayConfig = {
       date: "Bike Ride",
       title: "Basario's sister's wedding",
       description:
-        "Our little bike ride to Basario's sister's wedding—you driving, me sitting behind you, and somehow we ended up recording your crazy dance steps while riding! 😂 A little madness, a lot of laughter, and the two of us being our silly selves. 🫶",
+        "Our little bike ride to Basario's sister's wedding, one of those simple momentsyou driving, me sitting behind you, and somehow we ended up recording your crazy dance steps while riding! 😂 A little madness, a lot of laughter, and the two of us being our silly selves. 🫶",
     },
     {
       date: "Today",
       title: "And Then Came Today…",
       description:
-        "Another year of you. I feel like I'm the lucky one, because I get to have you in my life. ❤️ I may not always find the perfect words, but I hope you always feel it in the way I love you. You've slowly become a beautiful part of everything—my happiness, my thoughts, my little everyday moments, and my heart. 🫂❤️",
+        "Another year of you. I feel like I'm the lucky one, because I get to have you in my life ❤️. I may not always find the perfect words, but I hope you always feel it in the way I love you. You've slowly become a beautiful part of everything in my life...my happiness, my thoughts, my little everyday moments, and my heart. 🫂❤️",
     },
   ],
   gallery: [
@@ -127,19 +127,19 @@ export const birthdayConfig = {
       id: "letter-1",
       title: "Open when you need a smile",
       content:
-        "Hey you — remember that time we couldn't stop laughing over nothing? That's my favorite version of us. Keep being wonderfully, ridiculously you.",
+        "Hey you...remember that time we couldn't stop laughing over nothing. That's my favorite version of us. Keep being wonderfully, ridiculously you.",
     },
     {
       id: "letter-2",
       title: "Open when you're having a tough day",
       content:
-        "Bad days happen. But you are stronger than you know, and I'm right here — always on your team, always in your corner, always yours.",
+        "Bad days happen. But you are stronger than you know, and I'm right here with you always on your team, always in your corner, always yours.",
     },
     {
       id: "letter-3",
       title: "Open on your birthday",
       content:
-        "Happy Birthday, my love. Thank you for another year of patience, laughter, and love. Here's to many more adventures — with you, always with you.",
+        "Happy Birthday, my love. Thank you for another year of patience, laughter, and love. Here's to many more adventures with you, always with you.",
     },
   ],
   giftBoxes: [
@@ -151,12 +151,12 @@ export const birthdayConfig = {
     {
       id: "gift-2",
       label: "Gift #2",
-      surprise: "I handle everything.",
+      surprise: "A date night of your choice on me.",
     },
     {
       id: "gift-3",
       label: "Gift #3",
-      surprise: "Breakfast in bed + your favorite playlist. Deal?",
+      surprise: "Breakfast in bed + your favourite playlist. Deal?",
     },
   ],
   quiz: [
@@ -223,7 +223,7 @@ export const birthdayConfig = {
   flipCards: [
     { front: "First 'I love you'", back: "My heart did a full gymnastics routine." },
     { front: "Our silliest moment", back: "long distance dance when nobody is around." },
-    { front: "Best compliment ever", back: "-you said I am the best." },
+    { front: "Best compliment ever", back: "When you said "I am the best"." },
     { front: "Future us", back: "More laughs, more trips, more us." },
   ],
   randomCompliments: [
